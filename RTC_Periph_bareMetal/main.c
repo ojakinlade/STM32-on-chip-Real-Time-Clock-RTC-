@@ -1,3 +1,13 @@
+/*
+
+	This program configures the real time clock peripheral on the STM32F4.
+	It also uses the Alarm feature to generate an interrupt.
+	The time is set to 23:45, and an alarm occurs at 23:46.
+	When the alarm occurs, the green LED (GPIO pin 12 of GPIOD) comes on.
+*/
+
+
+
 #include "stm32f4xx.h"                  // Device header
 
 typedef struct
